@@ -3,5 +3,5 @@
 		<name>Better Zzzt</name>
 		<author>Neceros</author>
 		<supportedVersions><li>1.0</li></supportedVersions>
-		<description>Zzzt events take most of your power, but not all of it.</description>
+		<description>The Zzzt event will only take 75% of your power, not all of it.</description>
 </ModMetaData>
