@@ -11,7 +11,7 @@ namespace BetterZzzt
   [HarmonyPatch(typeof(ShortCircuitUtility), "DrainBatteriesAndCauseExplosion")]
   public static class BetterZzztHarmonyPatch
   {
-    public static IEnumerable<CodeInstruction> DrainBatteriesAndCauseExplosionTranspiler(IEnumerable<CodeInstruction> instructions)
+    public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
     {
       List<CodeInstruction> instructionList = instructions.ToList();
 
@@ -24,7 +24,7 @@ namespace BetterZzzt
         if(instruction.opcode == OpCodes.Callvirt && instruction.operand == AccessTools.Method(type: typeof(CompPowerBattery), name: nameof(CompPowerBattery.DrawPower)))
         {
           Log.Message("Test - IN");
-          yield return new CodeInstruction(opcode: OpCodes.Ldc_I4_4);
+          yield return new CodeInstruction(opcode: OpCodes.Ldc_R4, operand: 4.0);
           yield return new CodeInstruction(opcode: OpCodes.Div);
         }
 
