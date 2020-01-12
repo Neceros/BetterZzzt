@@ -1,0 +1,5 @@
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\BetterZzzt\Assemblies\BetterZzzt.dll
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\BetterZzzt\Source\BetterZzzt\obj\Debug\BetterZzzt.csprojAssemblyReference.cache
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\BetterZzzt\Source\BetterZzzt\obj\Debug\BetterZzzt.csproj.CoreCompileInputs.cache
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\BetterZzzt\Source\BetterZzzt\obj\Debug\BetterZzzt.csproj.CopyComplete
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\BetterZzzt\Source\BetterZzzt\obj\Debug\BetterZzzt.dll
