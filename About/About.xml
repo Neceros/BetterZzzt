@@ -2,6 +2,10 @@
 	<ModMetaData>
 		<name>Better Zzzt</name>
 		<author>Neceros</author>
-		<supportedVersions><li>1.0</li></supportedVersions>
+		<supportedVersions>
+      <li>1.0</li>
+      <li>1.1</li>
+    </supportedVersions>
+    <packageId>neceros.betterzzzt</packageId>
 		<description>The Zzzt event will only take 75% of your power, not all of it.</description>
 </ModMetaData>
